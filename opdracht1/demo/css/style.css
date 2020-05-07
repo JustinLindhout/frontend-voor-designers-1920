@@ -1,15 +1,62 @@
 * {
   box-sizing:border-box;
 }
-html{
-  background:#eee;
+body{
+  background:#fff;
 }
 
-body{
-  max-width: 30em;
-  margin: 1em auto;
-  padding: 1em;
-  background: #fff;
-  border-radius: 1em;
-  box-shadow: 0.5em 0.5em 0.5em rgba(68,68,68,0.6);
+header {
+	font-family: monospace;
+	font-weight: 600;
+	font-size: 4em;
+	margin: 1%;
+}
+
+main{
+
+
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.content{
+	margin: 1%;
+}
+
+a {
+	border: 1xp;
+	border-color: gray;
 }
