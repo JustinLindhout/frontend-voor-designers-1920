@@ -56,7 +56,26 @@ main{
 	margin: 1%;
 }
 
-a {
+button {
 	border: 1xp;
 	border-color: gray;
 }
+
+.bluehide{
+	display: none;
+}
+
+
+
+.greenhide{
+	display: none;
+}
+
+.yellowhide{
+	display: none;
+}
+
+.redhide{
+	display: none;
+}
+
