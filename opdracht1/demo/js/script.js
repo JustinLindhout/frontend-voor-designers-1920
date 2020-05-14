@@ -13,5 +13,5 @@ var red = document.querySelectorAll("img.red");
 var button = document.querySelector("btnBlue");
 
 btnBlue.addEventListener("click", function () {
-			element.classList.toggle("greenhide", "yellowhide", "redhide");
+			blue.classList.toggle("greenhide", "yellowhide", "redhide");
 		}
