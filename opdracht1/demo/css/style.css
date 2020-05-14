@@ -49,6 +49,7 @@ main{
   .column {
     flex: 100%;
     max-width: 100%;
+	  max-width: 600px;
   }
 }
 
@@ -61,11 +62,10 @@ button {
 	border-color: gray;
 }
 
+
 .bluehide{
 	display: none;
 }
-
-
 
 .greenhide{
 	display: none;

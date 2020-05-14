@@ -14,4 +14,4 @@ var button = document.querySelector("btnBlue");
 
 btnBlue.addEventListener("click", function () {
 			element.classList.toggle("greenhide", "yellowhide", "redhide");
-}
+		}
