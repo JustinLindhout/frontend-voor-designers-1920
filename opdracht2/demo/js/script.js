@@ -1,8 +1,10 @@
 $(function() {
 
   var inWrap = $('.inner-wrapper');
-
-  $('.prev').on('click', function() {
+	
+document.addEventListener('keypress', next)
+	
+  $('.prev').on('click', function next(prev) {
 
     inWrap.animate({left: '0%'}, 300, function(){
 
@@ -17,7 +19,7 @@ $(function() {
 
 
 
-  $('.next').on('click', function() {
+  $('.next').on('click', function(next) {
 
     inWrap.animate({left: '-200%'}, 300, function(){
 
@@ -31,4 +33,4 @@ $(function() {
   });
 
 
-})
+});
