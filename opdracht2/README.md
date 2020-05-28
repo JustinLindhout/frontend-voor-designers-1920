@@ -6,12 +6,14 @@ Lees hier de [opdrachtbeschrijving](./opdrachtbeschrijving.md).
 
 
 # Project titel
-Beschrijf hier je eigen project.
-En voeg een link naar je demo toe.
+Ik heb een carousel met foto's gemaakt die te bedienen is met pijltjes op het scherm. Het was ook de bedoeling om het carousel te bedienen met de pijltoetsen op het toetsenbord, dit is helaas niet gelukt.
+
+https://justinlindhout.github.io/frontend-voor-designers-1920/opdracht2/demo/index.html
 
 ## interface
 Leg de interface uit.
-
+De gebruiker kan met de pijlen op het scherm door de foto's heen gaan, dit kan beide kanten op. Zo geef je gebruiker het gevoel dat zij in controle zijn van wat er gebeurd.
+De pijlen zien er zo uit dat het 
 In de demo heb je interface design principles 04, 08 & 09 van [Principles of User Interface Design](http://bokardo.com/principles-of-user-interface-design/) toegepast. Hoe heb je dat gedaan?
 
 In de demo heb je meerdere [UI events](https://developer.mozilla.org/en-US/docs/Web/API/UIEvent) toegepast. Hoe heb je dat gedaan?
