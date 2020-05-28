@@ -68,3 +68,19 @@ img{
   transform: rotate(45deg);
 }
 
+/*
+/* element.addEventListener('keydown', function (event) { console.log(event)})
+window.addEventListener('keydown', function (event) { console.log(event)})
+
+function prev (prev) {
+
+    inWrap.animate({left: '0%'}, 300, function(){
+
+      inWrap.css('left', '-100%');
+
+      $('.slide').first().before($('.slide').last());
+
+    });
+
+
+  }

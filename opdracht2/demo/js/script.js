@@ -1,36 +1,63 @@
-$(function() {
+$(function button() {
 
-  var inWrap = $('.inner-wrapper');
+	var inWrap = $('.inner-wrapper');
+
+
+
+	$('.prev').on('click', function prev(prev) {
+
+		inWrap.animate({
+			left: '0%'
+		}, 300, function () {
+
+			inWrap.css('left', '-100%');
+
+			$('.slide').first().before($('.slide').last());
+
+		});
+
+
+	});
+
+
+
+	$('.next').on('click', function next(next) {
+
+		inWrap.animate({
+			left: '-200%'
+		}, 300, function () {
+
+			inWrap.css('left', '-100%');
+
+			$('.slide').last().after($('.slide').first());
+
+		});
+
+
+	});
+
+
+
+
+});
+
+$(function keys(){
+	var inWrap = $('.inner-wrapper');
 	
-document.addEventListener('keypress', next)
+	$("slide-wrapper").addEventListener("keypress", nextSlide);
 	
-  $('.prev').on('click', function next(prev) {
+function nextSlide(slide) {
 
-    inWrap.animate({left: '0%'}, 300, function(){
+		inWrap.animate({
+			left: '-200%'
+		}, 300, function () {
 
-      inWrap.css('left', '-100%');
+			inWrap.css('left', '-100%');
 
-      $('.slide').first().before($('.slide').last());
+			$('.slide').last().after($('.slide').first());
 
-    });
-
-
-  });
-
+		});
 
 
-  $('.next').on('click', function(next) {
-
-    inWrap.animate({left: '-200%'}, 300, function(){
-
-      inWrap.css('left', '-100%');
-
-      $('.slide').last().after($('.slide').first());
-
-    });
-
-
-  });
-
-
+	};
 });
