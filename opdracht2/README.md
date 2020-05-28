@@ -17,6 +17,7 @@ De pijlen zien er zo uit dat het aangeeft dat je kan sliden tussen meerdere foto
 Het is niet me geulkt om principles 8 goed uit te voeren.
 
 In de demo heb je meerdere [UI events](https://developer.mozilla.org/en-US/docs/Web/API/UIEvent) toegepast. Hoe heb je dat gedaan?
+
 Ik heb de slider werkend gekregen doormiddel van buttons, met deze buttons kan je door de foto's sliden. Mijn idee was om ook tussen de foto's te kunnen sliden doormiddel van de pijltoetsen op het toetsenbord. Dit is mij helaas nog niet gelukt.
 ## code
 
