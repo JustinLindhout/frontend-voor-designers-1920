@@ -23,3 +23,7 @@ Ik heb de slider werkend gekregen doormiddel van buttons, met deze buttons kan j
 
 De foto's in mijn carousel staan zonder css in een lange horizontale rijd= naast elkaar. Door de overflow van de slider op hidden te zetten zie je enkel 1 afbeelding. Over de foto's zit een container waar de slider in zit.
 Met javascript en Jquery heb ik de slider laten bewegen. Iedere keer dat slider wordt geactiveerd worden de afbeeldingen met css opgeschoven.
+
+(jQuery is een framework voor javascript.
+Een framework is een code die het gemakkelijker maakt om in die programmeer- of scripttaal te programmeren.
+De code wordt hierdoor vaak compacter, gemakkelijker te maken (je hebt minder code nodig om een functie te bereiken) en dus ook overzichtelijker.)
