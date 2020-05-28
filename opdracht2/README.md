@@ -13,10 +13,12 @@ https://justinlindhout.github.io/frontend-voor-designers-1920/opdracht2/demo/ind
 ## interface
 Leg de interface uit.
 De gebruiker kan met de pijlen op het scherm door de foto's heen gaan, dit kan beide kanten op. Zo geef je gebruiker het gevoel dat zij in controle zijn van wat er gebeurd.
-De pijlen zien er zo uit dat het 
-In de demo heb je interface design principles 04, 08 & 09 van [Principles of User Interface Design](http://bokardo.com/principles-of-user-interface-design/) toegepast. Hoe heb je dat gedaan?
+De pijlen zien er zo uit dat het aangeeft dat je kan sliden tussen meerdere foto's. Appearance follows behavior.
+Het is niet me geulkt om principles 8 goed uit te voeren.
 
 In de demo heb je meerdere [UI events](https://developer.mozilla.org/en-US/docs/Web/API/UIEvent) toegepast. Hoe heb je dat gedaan?
-
+Ik heb de slider werkend gekregen doormiddel van buttons, met deze buttons kan je door de foto's sliden. Mijn idee was om ook tussen de foto's te kunnen sliden doormiddel van de pijltoetsen op het toetsenbord. Dit is mij helaas nog niet gelukt.
 ## code
-Leg de code uit.
+
+De foto's in mijn carousel staan zonder css in een lange horizontale rijd= naast elkaar. Door de overflow van de slider op hidden te zetten zie je enkel 1 afbeelding. Over de foto's zit een container waar de slider in zit.
+Met javascript en Jquery heb ik de slider laten bewegen. Iedere keer dat slider wordt geactiveerd worden de afbeeldingen met css opgeschoven.
